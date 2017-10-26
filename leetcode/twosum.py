@@ -31,11 +31,23 @@ def two_sum(aList, target):
                 return [i, j]
     return [-1, -1]
 
-# TODO: implement in O(n)
+# Time complexity: O(n)
+
+
+def two_sum_2(aList, target):
+    if len(aList) <= 1:
+        return aList
+    hash_map = {}
+    for x in range(0, len(aList)):
+        if target - aList[x] in hash_map:
+            return [hash_map.get(target - aList[x]), x]
+        else:
+            hash_map[aList[x]] = x
+    return [-1, -1]
 
 
 if __name__ == '__main__':
     aList = [2, 7, 11, 15]
     target = 9
 
-print(two_sum(aList, target))
+print(two_sum_2(aList, target))
