@@ -18,3 +18,20 @@ is_palindrome("race car") -> False
 
 is_palindrome("") -> True
 """
+
+
+def is_palindrome(input_string):
+    reverse = input_string[::-1]
+    if input_string == reverse:
+        return True
+    else:
+        return False
+
+
+def is_palindrome(input_string):
+    return input_string == input_string[::-1]
+
+
+if __name__ == '__main__':
+    a_str = "race car"
+    print(is_palindrome(a_str))
