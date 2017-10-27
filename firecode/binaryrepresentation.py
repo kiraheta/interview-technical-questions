@@ -10,3 +10,14 @@ dec_to_bin(6) ==> "110"
 dec_to_bin(5) ==> "101"
 Note : Do not use in-built bin() function.
 """
+
+
+def dec_to_bin(n):
+    if n < 2:
+        return str(n)
+    else:
+        return dec_to_bin(n // 2) + dec_to_bin(n % 2)
+
+
+if __name__ == '__main__':
+    print(dec_to_bin(5))
