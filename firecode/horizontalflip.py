@@ -13,3 +13,20 @@ Modified to :
               0 0
               1 1
 """
+
+
+def flip_horizontal_axis(matrix):
+    size = len(matrix)
+    for i in range(size // 2):
+        matrix[i], matrix[size - 1 - i] = matrix[size - 1 - i], matrix[i]
+    return matrix
+
+
+def flip_horizontal_axis(matrix):
+    matrix.reverse()
+    return matrix
+
+
+if __name__ == '__main__':
+    matrix = [[1, 1], [0, 0]]
+    print(flip_horizontal_axis(matrix))
