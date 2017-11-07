@@ -17,11 +17,20 @@ fib(1) ==> 1
 fib(3) ==> 2
 """
 
-
+# Recursive solution
 def fib(n):
     if n <= 1:
         return n
     return (fib(n - 1) + fib(n - 2))
+
+
+# Non-Recursive solution
+def fib(n):
+    a = 0
+    b = 1
+    for num in range(n):
+        a, b = b, a + b
+    return a
 
 
 if __name__ == '__main__':
