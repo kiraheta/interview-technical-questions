@@ -31,7 +31,6 @@ def compare(lst, x, y):
 
 
 if __name__ == '__main__':
-
     a0, a1, a2 = 5, 6, 7
     a0, a1, a2 = [int(a0), int(a1), int(a2)]
     b0, b1, b2 = 3, 6, 10
