@@ -12,3 +12,9 @@ Sample Input:
 Sample Output:
 10 14
 """
+
+arr = [1, 2, 3, 4, 5]
+
+min_sum = sum(arr) - max(arr)
+max_sum = sum(arr) - min(arr)
+print(min_sum, max_sum)
