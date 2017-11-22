@@ -10,3 +10,4 @@ Problems and solutions from [hackerrank](https://www.hackerrank.com/)
 ||[Plus Minus](https://www.hackerrank.com/challenges/plus-minus/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/warmup/plusminus.py)|
 ||[Staircase](https://www.hackerrank.com/challenges/staircase/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/warmup/staircase.py)|
 ||[Mini-Max Sum](https://www.hackerrank.com/challenges/mini-max-sum/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/warmup/minimaxsum.py)|
+||[Birthday Cake Candles](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/warmup/birthdaycakecandles.py)|
