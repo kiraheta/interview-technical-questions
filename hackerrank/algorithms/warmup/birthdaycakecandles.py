@@ -11,3 +11,19 @@ Sample Input:
 Sample Output:
 2
 """
+
+
+def birthdayCakeCandles(n, ar):
+    tallest_candle = max(ar)
+    sum = 0
+    for candle in ar:
+        if candle == tallest_candle:
+            sum += 1
+    return sum
+
+
+if __name__ == '__main__':
+    n = 4
+    ar = [3, 2, 1, 3]
+    result = birthdayCakeCandles(n, ar)
+    print(result)
