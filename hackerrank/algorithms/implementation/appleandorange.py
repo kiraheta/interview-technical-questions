@@ -18,3 +18,28 @@ Sample Output:
 1
 1
 """
+
+
+def apple_and_orange(s, t, a, b, m, n, apple, orange):
+    apples = oranges = 0
+    for i in range(len(apple)):
+        diff = a + apple[i]
+        if s <= diff <= t:
+            apples += 1
+    for j in range(len(orange)):
+        diff = b + orange[j]
+        if s <= diff <= t:
+            oranges += 1
+    return (apples, oranges)
+
+
+if __name__ == '__main__':
+    s, t = 7, 11
+    a, b = 5, 15
+    m, n = 3, 2
+    apple = [-2, 2, 1]
+    orange = [5, -6]
+
+    apples, oranges = apple_and_orange(s, t, a, b, m, n, apple, orange)
+    print(apples)
+    print(oranges)
