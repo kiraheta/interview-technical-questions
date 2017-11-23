@@ -16,3 +16,4 @@ Problems and solutions from [hackerrank](https://www.hackerrank.com/)
 ||[Apple and Orange](https://www.hackerrank.com/challenges/apple-and-orange/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/appleandorange.py)|
 ||[Kangaroo](https://www.hackerrank.com/challenges/kangaroo/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/kangaroo.py)|
 ||[Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/betweentwosets.py)|
+||[Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/breakingtherecords.py)|
