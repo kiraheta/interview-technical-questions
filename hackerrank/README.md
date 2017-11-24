@@ -17,3 +17,4 @@ Problems and solutions from [hackerrank](https://www.hackerrank.com/)
 ||[Kangaroo](https://www.hackerrank.com/challenges/kangaroo/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/kangaroo.py)|
 ||[Between Two Sets](https://www.hackerrank.com/challenges/between-two-sets/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/betweentwosets.py)|
 ||[Breaking the Records](https://www.hackerrank.com/challenges/breaking-best-and-worst-records/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/breakingtherecords.py)|
+||[Birthday Chocolate](https://www.hackerrank.com/challenges/the-birthday-bar/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/birthdaychocolate.py)|
