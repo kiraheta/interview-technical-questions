@@ -21,3 +21,4 @@ Problems and solutions from [hackerrank](https://www.hackerrank.com/)
 ||[Divisible Sum Pairs](https://www.hackerrank.com/challenges/divisible-sum-pairs/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/divisiblesumpairs.py)|
 ||[Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/migratorybirds.py)|
 ||[Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/dayoftheprogrammer.py)|
+||[Bon Appetit](https://www.hackerrank.com/challenges/bon-appetit/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/bonappetit.py)|
