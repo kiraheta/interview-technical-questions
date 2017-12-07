@@ -22,3 +22,4 @@ Problems and solutions from [hackerrank](https://www.hackerrank.com/)
 ||[Migratory Birds](https://www.hackerrank.com/challenges/migratory-birds/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/migratorybirds.py)|
 ||[Day of the Programmer](https://www.hackerrank.com/challenges/day-of-the-programmer/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/dayoftheprogrammer.py)|
 ||[Bon Appetit](https://www.hackerrank.com/challenges/bon-appetit/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/bonappetit.py)|
+||[Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant/problem)|[python](https://github.com/kiraheta/interview-technical-questions/blob/master/hackerrank/algorithms/implementation/sockmerchant.py)|
