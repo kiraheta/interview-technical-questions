@@ -1,4 +1,4 @@
-#!/usr/bin/python
+#!/usr/bin/env python3
 
 """
 Problem: Two Sum
@@ -22,7 +22,12 @@ return [0, 1].
 # Time complexity: O(n^2)
 
 
-def two_sum(aList, target):
+def two_sum_1(aList, target):
+    """
+    :type nums: List[int]
+    :type target: int
+    :rtype: List[int]
+    """
     if len(aList) <= 1:
         return aList
     for i in range(0, len(aList) - 1):
@@ -31,9 +36,8 @@ def two_sum(aList, target):
                 return [i, j]
     return [-1, -1]
 
+
 # Time complexity: O(n)
-
-
 def two_sum_2(aList, target):
     if len(aList) <= 1:
         return aList
@@ -45,9 +49,21 @@ def two_sum_2(aList, target):
             hash_map[aList[x]] = x
     return [-1, -1]
 
+# Pythonic
+def two_sum_3(aList, target):
+    if len(aList) <= 1:
+        return aList
+    hash_map = {}
+    for i, n in enumerate(aList):
+        if target - n in hash_map:
+            return [hash_map[target - n], i]
+        else:
+            hash_map[n] = i
+    return [-1, -1]
+
 
 if __name__ == '__main__':
     aList = [2, 7, 11, 15]
     target = 9
 
-print(two_sum_2(aList, target))
+print(two_sum_3(aList, target))
