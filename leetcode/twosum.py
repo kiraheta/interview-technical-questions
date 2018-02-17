@@ -20,8 +20,6 @@ return [0, 1].
 """
 
 # Time complexity: O(n^2)
-
-
 def two_sum_1(aList, target):
     """
     :type nums: List[int]
@@ -65,5 +63,4 @@ def two_sum_3(aList, target):
 if __name__ == '__main__':
     aList = [2, 7, 11, 15]
     target = 9
-
-print(two_sum_3(aList, target))
+    print(two_sum_3(aList, target))
